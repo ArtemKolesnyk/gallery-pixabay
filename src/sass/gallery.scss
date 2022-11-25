@@ -1,0 +1,41 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: calc(100vw - 80px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery li {
+  height: 330px;
+  overflow: hidden;
+}
+
+.gallery img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.photo-card img:hover {
+  transform: scale(1.05);
+}
+.stats {
+  display: flex;
+  justify-content: center;
+}
+
+.stats-item:not(:last-child) {
+  margin-right: 10px;
+}
+.material-icons {
+  color: dodgerblue;
+}
+.stats-item {
+  text-align: center;
+}

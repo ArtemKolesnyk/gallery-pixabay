@@ -1,2 +1,3 @@
-import fetchImg from './js/fetchAPI';
-fetchImg();
+import './js/apiService';
+import './js/fetchSearchQuery';
+import './js/refs';
